@@ -10,6 +10,6 @@ Through SURE (Seemingly Unrelated Regression Equations) models, a significant in
 The conclusions therefore underline how specific meteorological combinations represent the most favorable conditions for the accumulation of PM10 and how the interaction between provinces makes an integrated approach to environmental policies necessary. The research highlights, finally, possible future developments linked to more complex predictive models and the integration with other sources of pollution.
 
 ### Repository Structure
-- `dati_PM10/` and `dati_meteo_s.toscana/`: Datasets used for the analysis (PM10 concentrations and meteorological data).
-- `funzioni utili/`: Custom functions developed for ARIMA and SURE models.
-- `data_load/`, `fill_missing/`: Full analysis workflow, ranging from data pre-processing to SURE model estimation.
+- `dati_PM10` and `dati_meteo_s.toscana`: Datasets used for the analysis (PM10 concentrations and meteorological data).
+- `funzioni utili`: Custom functions developed for ARIMA and SURE models.
+- `data_load.R`, `fill_missing.R`, `descrittive PM10-meteo.R` and `models.R`: Full analysis workflow, ranging from data pre-processing to SURE model estimation.
