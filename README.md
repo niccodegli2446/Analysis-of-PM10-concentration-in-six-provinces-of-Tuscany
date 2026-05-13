@@ -8,3 +8,8 @@ The descriptive analysis shows how PM10 levels tend to increase in the winter mo
 Through SURE (Seemingly Unrelated Regression Equations) models, a significant interdependence between provinces is highlighted, a sign that pollution episodes are not isolated but influenced by common territorial dynamics. The results also confirm the determinant role of meteorological conditions, defining a meteorological combination that favors the increase of PM10 concentration in the air: low temperatures, absence of wind, high humidity, and scarce precipitation.
 
 The conclusions therefore underline how specific meteorological combinations represent the most favorable conditions for the accumulation of PM10 and how the interaction between provinces makes an integrated approach to environmental policies necessary. The research highlights, finally, possible future developments linked to more complex predictive models and the integration with other sources of pollution.
+
+### Repository Structure
+- `data/`: Datasets used for the analysis (PM10 concentrations and meteorological data).
+- `R/`: Custom functions developed for missing data imputation and data processing.
+- `scripts/`: Full analysis workflow, ranging from data pre-processing to SURE model estimation.
