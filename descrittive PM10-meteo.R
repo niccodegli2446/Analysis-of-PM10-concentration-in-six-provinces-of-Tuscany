@@ -9,7 +9,7 @@ source("/Users/niccolodeglinnocenti/Desktop/Università/TESI/fill_missing.R")
 #### Caricamento dati no missing
 #dati=read.table('/Users/niccolodeglinnocenti/Desktop/Università/TESI/PM10.csv',
 #                header=T, sep=';', dec='.')
-#dati$DATE=as.Date(as.character(dati$DATE), format = "%Y-%m-%d")
+dati$DATE=as.Date(as.character(dati$DATE), format = "%Y-%m-%d")
 
 ### Caricamento dati meteo e funzioni utili
 meteo=data.frame(cbind(
