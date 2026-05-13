@@ -4,12 +4,12 @@ dev.off()
 #### Caricamento dati e librerie modelli 
 source("/Users/niccolodeglinnocenti/Desktop/Università/TESI/data_load.R")
 #### Sostituzione missing 
-#source("/Users/niccolodeglinnocenti/Desktop/Università/TESI/fill_missing.R")
+source("/Users/niccolodeglinnocenti/Desktop/Università/TESI/fill_missing.R")
 
 #### Caricamento dati no missing
-dati=read.table('/Users/niccolodeglinnocenti/Desktop/Università/TESI/PM10.csv',
-                header=T, sep=';', dec='.')
-dati$DATE=as.Date(as.character(dati$DATE), format = "%Y-%m-%d")
+#dati=read.table('/Users/niccolodeglinnocenti/Desktop/Università/TESI/PM10.csv',
+#                header=T, sep=';', dec='.')
+#dati$DATE=as.Date(as.character(dati$DATE), format = "%Y-%m-%d")
 
 ### Caricamento dati meteo e funzioni utili
 meteo=data.frame(cbind(
