@@ -13,3 +13,5 @@ The conclusions therefore underline how specific meteorological combinations rep
 - `dati_PM10` and `dati_meteo_s.toscana`: Datasets used for the analysis (PM10 concentrations and meteorological data).
 - `funzioni utili`: Custom functions developed for ARIMA and SURE models.
 - `data_load.R`, `fill_missing.R`, `descrittive PM10-meteo.R` and `models.R`: Full analysis workflow, ranging from data pre-processing to SURE model estimation.
+
+- `TESI.pdf`: The final thesis, written entirely in Italian, was presented to the University of Florence commission on 09/10/2025.
